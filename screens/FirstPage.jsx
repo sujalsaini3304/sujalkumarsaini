@@ -21,7 +21,7 @@ const FirstPage = () => {
               text="Web Developer specializing in responsive, high-performance websites using the MERN stack."
               name="Website"
               imgURL={
-                isThemeChangedToDark
+                !isThemeChangedToDark
                   ? "https://res.cloudinary.com/dep5qlowr/image/upload/v1746369109/websiteWhiteTheme_gkoyeh.png"
                   : "https://res.cloudinary.com/dep5qlowr/image/upload/v1746359111/website_yhwjw6.png"
               }
@@ -30,7 +30,7 @@ const FirstPage = () => {
               text="iOS App Developer building fast, cross-platform apps with React Native and a focus on smooth user experience."
               name="iOS App"
               imgURL={
-                isThemeChangedToDark
+                !isThemeChangedToDark
                   ? "https://res.cloudinary.com/dep5qlowr/image/upload/v1746368998/appleImageWhite_ocmkjq.png"
                   : "https://res.cloudinary.com/dep5qlowr/image/upload/v1746358678/apple_sswdwd.png"
               }
@@ -39,7 +39,7 @@ const FirstPage = () => {
               text="Android App Developer crafting cross-platform apps with React Native, optimized for performance and user experience."
               name="Android App"
               imgURL={
-                isThemeChangedToDark
+                !isThemeChangedToDark
                   ? "https://res.cloudinary.com/dep5qlowr/image/upload/v1746368873/androidWhiteTheme_pyblwe.png"
                   : "https://res.cloudinary.com/dep5qlowr/image/upload/v1746358960/androidImage_zpkeka.png"
               }

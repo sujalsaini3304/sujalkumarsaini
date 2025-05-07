@@ -83,7 +83,7 @@ const Navbar = () => {
           {/* <a className="btn">Button</a> */}
           <label className="swap swap-rotate">
             {/* this hidden checkbox controls the state */}
-            <input type="checkbox" className="theme-controller" value="dark" id="myCheckbox" onClick={handleClick}/>
+            <input type="checkbox" className="theme-controller" value="light" id="myCheckbox" onClick={handleClick}/>
 
             {/* moon icon */}
             <svg

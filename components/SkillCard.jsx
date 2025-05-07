@@ -1,4 +1,5 @@
 import React from "react";
+import CountUp from '../src/blocks/TextAnimations/CountUp/CountUp.jsx'
 
 const SkillCard = (prop) => {
   return (
@@ -19,7 +20,17 @@ const SkillCard = (prop) => {
         value={prop.percent}
         max="100"
         ></progress>
-        <div className="text-xl font-bold mb-1 progress-success" >{`${prop.percent}%`}</div>
+        <div className="text-xl font-bold mb-1 progress-success" >
+        {/* {`${prop.percent}%`} */}
+          <CountUp
+          from={0}
+          to={prop.percent}
+          separator=","
+          direction="up"
+          duration={1}
+          className="count-up-text"
+        />%
+          </div>
         </div>
         </div>
       </div>

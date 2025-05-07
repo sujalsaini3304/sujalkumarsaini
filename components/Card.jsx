@@ -17,9 +17,6 @@ const Card = (prop) => {
           <p>
             {prop.text}
           </p>
-          {/* <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
-          </div> */}
         </div>
       </div>
     </>
